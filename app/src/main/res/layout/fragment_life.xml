@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhrite"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="点击"
+        android:textColor="@color/colorWhrite" />
+
+    <com.nativeosproject.cn.mvcjobproject.view.MyProgress
+        android:visibility="gone"
+        android:id="@+id/my_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:max="100"
+        android:progress="60"
+        android:progressDrawable="@drawable/progressbar" />
+
+
+</LinearLayout>
